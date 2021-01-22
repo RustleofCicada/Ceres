@@ -1,0 +1,9 @@
+[save tracks(bool)]
+[gravity const] [time warp]
+[planet count(int)]
+[pos x] [pos y] [pos z] [vel x] [vel y] [vel z] [mass]
+...
+[pos x] [pos y] [pos z] [vel x] [vel y] [vel z] [mass]
+[cam pos x] [cam pos y] [cam pos z]
+[cam angle x] [cam angle y]
+[zoom] [fov]

@@ -1,0 +1,31 @@
+Porgram do symulacji oddziaływań grawitacyjnych planet.
+
+Obsługa plików:
+Program ZAWSZE ładuje się z pliku "basic_state.txt" dlatego musi być on w tym samym folderze co program.
+Możliwe jest zapisanie stanu układu planet klawiszem: 1
+Ładowanie układu planet klawiszem: 2
+klawisz 3: rozpoczęcie zapisu ścieżek planet do pliku
+klawisz 4: zakończenie zapisu ścieżek
+
+klawisz ESC: zakończenie programu
+
+Fizyka:
+zmiana stałej grawitacyjnej: g / f
+zmiana prędkości symulacji: b / v
+
+Kamera:
+przemieszczenie:  W, A, S, D, Spacja, Shift
+obracanie: strzałki
+przybliżanie / oddalanie: = / -
+fov + /- :  [ / ]
+
+Pliki:
+format pliku stanu można znaleźć w pliku "state_template.txt", maksymalna ilość planet: 15
+format pliku ścieżek:
+@[czas programu]
+[pozycja planety 1]
+[pozycja planety 2]
+...
+[pozycja planety N]
+@[czas programu]
+...
